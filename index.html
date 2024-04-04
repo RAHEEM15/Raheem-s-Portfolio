@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3b800b1992.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span style="color: #e28c37; font-size: 80px;">R</span>aheem</h1>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#">Skills</a></li> -->
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                
+                <h1>Hi, I am <span class="head1" style="color:#e28c37;">Raheem Basha</span> <br> <span class="headdd" >Front-End Developer</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- header page end --> 
+
+    <!-- about page start -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./personal-portfolio-img/images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p class="about-p">My self A Raheem Basha, I'm Frontend Web Developer, I would like to be a part of an organization Where I could gain confidence and fame using my potential in the field and express my innovative creative skills for organization growth and self.</p>
+                    
+                    <br>
+                    
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="sk()">Skills</p>
+                    <p class="tab-links" onclick="exp()">Designing Software</p>
+                    <p class="tab-links" onclick="edu()">Education</p>
+                   </div> 
+
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML</span></li>
+                        <li><span>CSS</span></li>
+                        <li><span>Bootstrap</span></li>
+                        <li><span>Javascript</span></li>
+                    </ul>
+                   </div>
+
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Adobe PhotoShop</span></li>
+                        <li><span>Page Maker</span></li>
+                        <li><span>CorelDraw</span></li>
+                        <li><span>Adobe Lightroom</span></li>
+                    </ul>
+                   </div>
+
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Full Stack Web Developer Course in CredoSystemz - Ongoing</span></li>
+                        <li><span>DTP cirtification course in Gandhi institution</span></li>
+                        <li><span>Completed B.Sc.Computer Science in The New College, Chennai 2023 with 72%</span></li>
+                        <li><span> Completed HSC is Santhome Hr Sec School, Chennai in 2020 with 51%. </span></li>
+                        <li><span>Completed SSLC in Santhome Hr Sec School, Chennai in 2018 with 66%.</span></li>
+                        
+                    </ul>
+                   </div>
+                  
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about page end -->
+
+<div id="Projects">
+    <div class="container">
+        <div class="sub-title">Projects</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="./Screen Shots/Insta clone screen shot.png" alt="Insta Clone project image "><br>
+                <div class="layer">
+                    <h2 class="">Insta Clone</h2><br>
+                    <p>Instagram Clone Design using HTML, CSS, Javascript</p><br>
+                    <a href="https://raheem15.github.io/Insta-Design-Clone/" target="_blank"><button >View Project</button></a>
+                </div>
+            </div>
+
+            
+            <div class="work">
+                <img src="./Screen Shots/QR Code Screen Shot.png" alt="QR Code Project Image"><br>
+                <h2>QR Code Generator</h2><br>
+                    <p>QR Code Generator using HTML, CSS, Javascript</p><br>
+                    <a href="https://generate-qr-code-by-raheem.netlify.app/" target="_blank"><button>View Project</button></a>
+            </div>
+            
+            <div class="work">
+                <img src="./Screen Shots/Screenshot todolist.png" alt="Simple ToDo-List Project Image"><br>
+                <h2>To-Do-List</h2><br>
+                    <p>QR Code Generator using HTML, CSS, Javascript</p><br>
+                    <a href="https://raheem15.github.io/To-Do-App/" target="_blank"><button>View Project</button></a>
+            </div>
+            <div class="work">
+                <img src="./Screen Shots/Salary Screen Shot.png" alt="Simple ToDo-List Project Image"><br>
+                <h2>Salary Calculator</h2><br>
+                    <p>Salary Calculator using HTML, CSS, Javascript</p><br>
+                    <a href="https://raheem15.github.io/Salary-Calculator/" target="_blank"><button>View Project</button></a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<!-- contact -->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rahim9940489171@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>683759823</p>
+                <div class="socialicon">
+                    
+                    <a href="https://www.linkedin.com/in/raheem-basha/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/RAHEEM15" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/raheem._20/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1PssLGh_9lucwq0t5wJc5vH65WOtvXnuy/view?usp=sharing" target="_blank"><button class="btn">Download CV</button></a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button class="btn1" type="submit">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+        var skills = document.getElementById("skills");
+        var experience = document.getElementById("experience");
+        var education = document.getElementById("education");
+
+        function sk(){
+            skills.style.display="block";
+            experience.style.display="none";
+            education.style.display="none";
+        }
+
+        function exp(){
+            skills.style.display="none";
+            experience.style.display="block";
+            education.style.display="none";
+        }
+        function edu(){
+            skills.style.display="none";
+            experience.style.display="none";
+            education.style.display="block";
+        }
+    </script>
+
+    
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbygsW72Hr6CN4j4xmAOi-h9XxtND2sORSO2ShZhYkqPy9tgIaB_l5Jl8cMqR0VbMYXk/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message sent successfully"
+    setTimeout(function(){
+        msg.innerHTML=""
+    },5000)
+form.reset()})
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
