@@ -116,18 +116,10 @@ nav ul li a:hover::after{
     color: #b86411;
     text-decoration: underline;
     transition: 0.5s;
-
-}
-.tab-links.active-link::after{
-    /* width: 50%; */
 }
 
 .tab-contents ul li{
-    
     margin: 10px 0;
-}
-.tab-contents ul li span{
-
 }
 
 .tab-contents{
