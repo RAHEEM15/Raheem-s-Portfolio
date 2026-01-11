@@ -216,7 +216,17 @@ nav ul li a:hover::after{
     
     
 }
-
+.socialicon a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.socialicon a i {
+    font-size: 28px;
+    color: #ababab;
+    transition: 0.3s;
+}
 .socialicon a img {
     width: 10px;
     height: 10px;
