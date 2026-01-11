@@ -222,7 +222,7 @@ nav ul li a:hover::after{
     justify-content: center;
     margin-right: 15px;
 }
-.socialicon a i {
+.socialicon a i img{
     font-size: 28px;
     color: #ababab;
     transition: 0.3s;
@@ -232,9 +232,15 @@ nav ul li a:hover::after{
     height: 28px;
     filter: grayscale(100%);
     transition: 0.3s;
+
+      color: #ababab;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-right: 15px;
+    transition: transform 0.5s;
 }
 
-.socialicon a:hover i {
+.socialicon a:hover i img{
     color: #e28c37;
     transform: translateY(-3px);
 }
