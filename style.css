@@ -228,10 +228,20 @@ nav ul li a:hover::after{
     transition: 0.3s;
 }
 .socialicon a img {
-    width: 10px;
-    height: 10px;
-    /* filter: grayscale(100%); */
-    /* transition: 0.3s; */
+    width: 28px;
+    height: 28px;
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.socialicon a:hover i {
+    color: #e28c37;
+    transform: translateY(-3px);
+}
+
+.socialicon a:hover img {
+    filter: none;
+    transform: translateY(-3px);
 }
 
 .contact-left p{
