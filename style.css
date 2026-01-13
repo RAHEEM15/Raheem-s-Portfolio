@@ -228,8 +228,8 @@ nav ul li a:hover::after{
     transition: 0.3s;
 }
 .socialicon a img {
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     filter: grayscale(100%);
     transition: 0.3s;
 
